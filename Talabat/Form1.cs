@@ -28,28 +28,28 @@ namespace Talabat
         {
             open_form once = new open_form();
             once.Show();
-            Hide();
+            //Hide();
         }
 
         private void closed_mode_Click(object sender, EventArgs e)
         {
             Disconnected_Form formTwo = new Disconnected_Form();
             formTwo.Show();
-            Hide();
+            //Hide();
         }
 
         private void reportButton1_Click(object sender, EventArgs e)
         {
             Shop_Report report1 = new Shop_Report();
             report1.Show();
-            Hide();
+            //Hide();
         }
 
         private void reportButton2_Click(object sender, EventArgs e)
         {
             Customer_report report2 = new Customer_report();
             report2.Show();
-            Hide();
+            //Hide();
         }
     }
 }

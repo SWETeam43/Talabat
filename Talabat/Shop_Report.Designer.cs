@@ -29,6 +29,7 @@ namespace Talabat
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Shop_Report));
             this.generateReport = new System.Windows.Forms.Button();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.SuspendLayout();
@@ -60,6 +61,7 @@ namespace Talabat
             this.ClientSize = new System.Drawing.Size(1329, 502);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.generateReport);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Shop_Report";
             this.Text = "Shop_Report";
             this.Load += new System.EventHandler(this.Shop_Report_Load);

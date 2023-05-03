@@ -120,6 +120,7 @@
             this.Controls.Add(this.reportButton1);
             this.Controls.Add(this.closed_mode);
             this.Controls.Add(this.open_mode);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

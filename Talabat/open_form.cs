@@ -111,21 +111,7 @@ namespace Talabat
             //conn.Close();
         }
 
-        private void List_of_shops_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-            
-        }
 
-        private void product_list_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Regestrate_Click(object sender, EventArgs e)
         {
@@ -219,39 +205,5 @@ namespace Talabat
             rd.Close();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void MaxGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
